@@ -13,6 +13,7 @@ list(set=set, get=get,
    getmatrix=getmatrix)
 }
 
+
 cacheSolve <- function(x=matrix(), ...) {
     m<-x$getmatrix()
     if(!is.null(m)){
